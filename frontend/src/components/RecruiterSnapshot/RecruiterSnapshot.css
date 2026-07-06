@@ -1,0 +1,40 @@
+.snapshot {
+  background:
+    radial-gradient(circle at top left, rgba(96, 165, 250, 0.16), transparent 35%),
+    #020617;
+}
+
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.snapshot-card {
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 26px;
+  padding: 28px;
+  transition: 0.3s ease;
+}
+
+.snapshot-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(34, 211, 238, 0.4);
+}
+
+.snapshot-card h3 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  color: #22d3ee;
+  margin-bottom: 10px;
+}
+
+.snapshot-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.snapshot-card p {
+  color: #cbd5e1;
+  line-height: 1.7;
+}

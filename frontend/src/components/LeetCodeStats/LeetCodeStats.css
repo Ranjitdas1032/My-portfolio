@@ -1,0 +1,86 @@
+.leetcode {
+  background:
+    radial-gradient(circle at top left, rgba(250, 204, 21, 0.12), transparent 35%),
+    #020617;
+}
+
+.leetcode-card {
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 28px;
+  padding: 34px;
+  color: #ffffff;
+}
+
+.leetcode-profile {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.leetcode-profile img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(250, 204, 21, 0.5);
+}
+
+.leetcode-profile h3 {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+}
+
+.leetcode-profile p {
+  color: #cbd5e1;
+  margin-bottom: 8px;
+}
+
+.leetcode-profile a,
+.leetcode-card a {
+  color: #facc15;
+  font-weight: 700;
+}
+
+.leetcode-total {
+  margin-bottom: 26px;
+}
+
+.leetcode-total h3 {
+  font-size: clamp(3rem, 8vw, 5rem);
+  line-height: 1;
+  color: #facc15;
+}
+
+.leetcode-total p {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+}
+
+.leetcode-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.leetcode-grid div {
+  background: rgba(2, 6, 23, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.leetcode-grid span {
+  display: block;
+  color: #94a3b8;
+  margin-bottom: 8px;
+}
+
+.leetcode-grid strong {
+  font-size: 1.5rem;
+}
+
+.leetcode-loading {
+  color: #cbd5e1;
+}

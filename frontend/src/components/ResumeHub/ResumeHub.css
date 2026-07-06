@@ -1,0 +1,109 @@
+.resume-hub {
+  background:
+    radial-gradient(circle at bottom right, rgba(34, 197, 94, 0.14), transparent 35%),
+    #020617;
+}
+
+.resume-card {
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 30px;
+  padding: 34px;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 34px;
+  align-items: center;
+}
+
+.resume-badge {
+  display: inline-block;
+  color: #22c55e;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.85rem;
+  margin-bottom: 18px;
+}
+
+.resume-content h3 {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.resume-content p {
+  color: #cbd5e1;
+  line-height: 1.8;
+  margin-bottom: 22px;
+}
+
+.resume-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+
+.resume-points span {
+  color: #e2e8f0;
+  background: rgba(255, 255, 255, 0.07);
+  padding: 10px 14px;
+  border-radius: 999px;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.resume-download,
+.resume-view {
+  padding: 13px 22px;
+  border-radius: 999px;
+  font-weight: 800;
+  transition: 0.3s ease;
+}
+
+.resume-download {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #ffffff;
+}
+
+.resume-view {
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.resume-download:hover,
+.resume-view:hover {
+  transform: translateY(-3px);
+}
+
+.resume-preview {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-paper {
+  width: 260px;
+  min-height: 330px;
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.35);
+  transform: rotate(3deg);
+}
+
+.resume-paper h4 {
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+}
+
+.resume-paper p {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
