@@ -1,18 +1,18 @@
 import { useState } from "react";
 import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
-import About from "../components/About/About";
-import Skill from "../components/Skills/Skill";
-import Project from "../components/Project/Project";
-import Contact from "../components/Contact/Contact";
-import LeetCodeStats from "../components/LeetCodeStats/LeetCodeStats";
-import Chatbot from "../components/Chatbot/Chatbot";
-import JobAnalyzer from "../components/JobAnalyzer/JobAnalyzer";
-import Footer from "../components/Footer/Footer";
-import Journey from "../components/Journey/Journey";
-import Certifications from "../components/Certifications/Certifications";
-import ResumeHub from "../components/ResumeHub/ResumeHub";
-import RecruiterSnapshot from "../components/RecruiterSnapshot/RecruiterSnapshot";
+import About from "../components/about/About";
+import Skill from "../components/skills/Skill";
+import Project from "../components/project/Project";
+import Contact from "../components/contact/Contact";
+import LeetCodeStats from "../components/leetCodeStats/LeetCodeStats";
+import Chatbot from "../components/chatbot/Chatbot";
+import JobAnalyzer from "../components/jobAnalyzer/JobAnalyzer";
+import Footer from "../components/footer/Footer";
+import Journey from "../components/journey/Journey";
+import Certifications from "../components/certifications/Certifications";
+import ResumeHub from "../components/resumeHub/ResumeHub";
+import RecruiterSnapshot from "../components/recruiterSnapshot/RecruiterSnapshot";
 function Home() {
    const [isJobAnalyzerOpen, setIsJobAnalyzerOpen] = useState(false);
   return (
