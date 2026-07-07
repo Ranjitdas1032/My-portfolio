@@ -17,6 +17,7 @@ function Home() {
    const [isJobAnalyzerOpen, setIsJobAnalyzerOpen] = useState(false);
   return (
     <>
+    
       <Header onOpenJobAnalyzer={() => setIsJobAnalyzerOpen(true)} />
       <main>
         <Hero />
