@@ -32,6 +32,7 @@ function Home() {
         <Chatbot />
         <Contact />
         <Footer />
+        
       </main>
       <JobAnalyzer
         isOpen={isJobAnalyzerOpen}
