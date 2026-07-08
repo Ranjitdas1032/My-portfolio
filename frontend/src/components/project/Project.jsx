@@ -1,5 +1,5 @@
 import "./project.css";
-import { profile } from "../../data/profileData";
+import { profile } from "../../data/profiledata";
 
 function Projects() {
   return (

@@ -1,5 +1,5 @@
 import "./skill.css";
-import { profile } from "../../data/profileData";
+import { profile } from "../../data/profiledata";
 
 function Skills() {
   return (
